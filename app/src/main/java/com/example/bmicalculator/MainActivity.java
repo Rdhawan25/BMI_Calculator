@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         final EditText e2 = (EditText) findViewById(R.id.weight);
         final TextView result = (TextView) findViewById(R.id.calculate);
 
+        //comment
+
         findViewById(R.id.calculateButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
